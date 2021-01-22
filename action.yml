@@ -1,0 +1,9 @@
+name: " Sync AWS S3 with optional CloudFront Cache invalidation"
+description: "Sync a directory to an AWS S3 bucket and invalidate the CloudFront cache"
+author: jtrollia
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: purple
